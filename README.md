@@ -58,7 +58,7 @@ Requires **Python 3.13**. Key scientific stack pins align with modern NumPy 2 / 
 <!-- omit in toc -->
 ## Install from Github
 ```
-git clone https://github.com/graspologic-org/graspologic
+git clone https://github.com/FulgentMcGuffin/graspologic.git
 cd graspologic
 uv sync --python 3.13
 ```
@@ -66,7 +66,7 @@ uv sync --python 3.13
 Or with a plain venv:
 
 ```
-git clone https://github.com/graspologic-org/graspologic
+git clone https://github.com/FulgentMcGuffin/graspologic.git
 cd graspologic
 python3.13 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
