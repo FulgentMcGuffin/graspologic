@@ -63,7 +63,7 @@ follow these guidelines! This will make it a lot faster for us to respond to you
 # Contributing code
 
 ## Prerequisites
-* [Python 3.9+](https://www.python.org/)
+* [Python 3.13](https://www.python.org/)
 * [uv 0.4+](https://docs.astral.sh/uv/) (handles dependency installation and locking)
 
 ## Setting up for development

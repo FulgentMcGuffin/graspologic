@@ -40,10 +40,7 @@ Please visit the [tutorial section](https://graspologic-org.github.io/graspologi
 - Windows 10 x64
 
 And across the following **x86_64** versions of Python:
-- 3.9
-- 3.10
-- 3.11
-- 3.12
+- 3.13
 
 If you try to use `graspologic` for a different platform than the ones listed and notice any unexpected behavior,
 please feel free to [raise an issue](https://github.com/graspologic-org/graspologic/issues/new).  It's better for ourselves and our users
@@ -56,13 +53,23 @@ if we have concrete examples of things not working!
 pip install graspologic
 ```
 
+Requires **Python 3.13**. Key scientific stack pins align with modern NumPy 2 / SciPy environments (for example NumPy ≥2.5.2, SciPy ≥1.18, scikit-learn ≥1.9, NetworkX ≥3.6.1), including `umap-learn` ≥0.5.12.
+
 <!-- omit in toc -->
 ## Install from Github
 ```
 git clone https://github.com/graspologic-org/graspologic
 cd graspologic
-python3 -m venv venv
-source venv/bin/activate
+uv sync --python 3.13
+```
+
+Or with a plain venv:
+
+```
+git clone https://github.com/graspologic-org/graspologic
+cd graspologic
+python3.13 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install .
 ```
 

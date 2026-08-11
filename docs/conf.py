@@ -86,7 +86,7 @@ intersphinx_mapping = {
     "networkx": ("https://networkx.org/documentation/stable", None),
     "numpy": ("https://matplotlib.org/stable/", None),
     "pandas": ("https://pandas.pydata.org/pandas-docs/stable", None),
-    "python": ("https://docs.python.org/3.9", None),
+    "python": ("https://docs.python.org/3.13", None),
     "scipy": ("https://docs.scipy.org/doc/scipy", None),
     "seaborn": ("https://seaborn.pydata.org", None),
     "sklearn": ("https://scikit-learn.org/dev", None),

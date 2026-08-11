@@ -104,7 +104,7 @@ def _get_omni_matrix(
     n = shape[0]  # number of vertices
     m = len(graphs)  # number of graphs
 
-    A = np.array(graphs, copy=False, ndmin=3)
+    A = np.array(graphs, copy=None, ndmin=3)
 
     # Do some numpy broadcasting magic.
     # We do sum in 4d arrays and reduce to 2d array.
